@@ -1,0 +1,10 @@
+    
+str = "Maheshkathaale"
+
+print("Original string :",str)
+
+size = len(str)
+
+print("Print only even index :")
+for i in range(0,size,2):
+    print("index[", i,"]",str[i])

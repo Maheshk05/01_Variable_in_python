@@ -1,0 +1,9 @@
+def remove_char(word,n):
+    print("Original string :",word)
+
+    x = word[n:]
+    return x
+
+
+print("Removing characters from a string")
+print("After removing :",remove_char("Spiderman",3))

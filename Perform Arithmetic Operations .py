@@ -1,7 +1,7 @@
 num1 = eval(input("Enter 1st no:"))
 num2 = eval(input("Enter 2nd no:"))
 
-N = str(input("+ / - /*  // :"))
+N = str(input("+ / - / *  / / :"))
 
 if N == "+":
     t = num1 + num2
